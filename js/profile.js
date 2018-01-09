@@ -9,3 +9,4 @@ function renderUserData(aUser){
 }
 
 renderUserData(user);
+renderNavbar(user);
