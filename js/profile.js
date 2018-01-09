@@ -1,2 +1,4 @@
-const profileName = document.getElementById("profile-name");
-profileName.innerText = "Aaron Sipser";
+user = {
+	name: "Rupayan Neogy",
+	last_post: "I took my cat on a walk today!"
+};
