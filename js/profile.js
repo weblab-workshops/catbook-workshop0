@@ -1,2 +1,2 @@
-const profileDescription = document.getElementById("profile-description");
-console.log(profileDescription.innerText);
+const profileName = document.getElementById("profile-name");
+profileName.innerText = "Aaron Sipser";
