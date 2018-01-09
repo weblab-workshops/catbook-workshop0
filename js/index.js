@@ -1,4 +1,4 @@
-let user = {
+const user = {
 	name: "Rupayan Neogy",
 	last_post: "I took my cat on a walk today!"
 };
