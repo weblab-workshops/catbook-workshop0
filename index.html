@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News Feed</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="navbar-brand" href="#">Catbook</div>
+      <div class="navbar-nav" id="nav-item-container">
+        <!-- navbar items are inserted here -->
+      </div>
+    </nav>
+    <div class="container feed-container">
+      <div class="row">
+        <div class="input-group">
+          <input type="text" class="form-control" id="new-status-text" placeholder="New Cat Status..."></input>
+          <div class="input-group-btn">
+            <button class="btn btn-primary" type="button" id="new-status-btn">Post!</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="stories" class="col">
+          <!-- stories are inserted here -->
+        </div>
+      </div>
+    </div>
+    <div id="app"></div>
+  </body>
+  <script src="js/navbar.js"></script>
+  <script src="js/feed.js"></script>
+  <script src="js/index.js"></script>
+</html>

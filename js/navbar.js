@@ -12,6 +12,6 @@ function newNavbarItem(text, url) {
 function renderNavbar(user) {
   const navbarDiv = document.getElementById('nav-item-container');
 
-  navbarDiv.appendChild(newNavbarItem('Home', '#'));
-  navbarDiv.appendChild(newNavbarItem('Profile', '#'));
+  navbarDiv.appendChild(newNavbarItem('Home', 'index.html'));
+  navbarDiv.appendChild(newNavbarItem('Profile', 'profile.html'));
 }
